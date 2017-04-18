@@ -27,6 +27,7 @@ echo ">> SSL initialized";
 . ${dwlDir}/apache2.sh
 echo ">> Apache2 initialized";
 
+. ${dwlDir}/php.sh
 . ${dwlDir}/sendmail.sh
 echo ">> Sendmail initialized";
 

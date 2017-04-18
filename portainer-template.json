@@ -55,13 +55,17 @@
         },{
             "name": "DWL_SSLKEY_CN",
             "label": "Common Name (e.g. server FQDN or YOUR name) [davaskweblimited.com]"
+        },{
+            "name": "DWL_PHP_DATETIMEZONE",
+            "label": "php.ini > date.timezone [Europe/Paris]"
         }
     ],
     "volumes": [
         "/home/username",
         "/var/log/apache2",
         "/etc/apache2/sites-available",
-        "/etc/apache2/ssl"
+        "/etc/apache2/ssl",
+        "/etc/letsencrypt"
     ]
   }
 ]
