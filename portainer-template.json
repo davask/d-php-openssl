@@ -64,8 +64,7 @@
         "/home/username",
         "/var/log/apache2",
         "/etc/apache2/sites-available",
-        "/etc/apache2/ssl",
-        "/etc/letsencrypt"
+        "/etc/apache2/ssl"
     ]
   }
 ]

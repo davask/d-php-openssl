@@ -24,7 +24,7 @@ d-php-openssl:
   net: bridge
   volumes:
   - /home/dwl/docker-images/app/d-php-openssl/build/etc/apache2/ssl:/etc/apache2/ssl
-  - /home/dwl/docker-images/app/d-php-openssl/volumes/proxy/log/localhost/apache2:/var/log/apache2
+  - /home/dwl/docker-images/app/d-php-openssl/volumes/home/username/log/localhost/apache2:/var/log/apache2
   - /home/dwl/docker-images/app/d-php-openssl/volumes/home/username/http/app/sites-available:/etc/apache2/sites-available
   - /home/dwl/docker-images/app/d-php-openssl/volumes/home/username/files:/home/username/files
   working_dir: /var/www/html
