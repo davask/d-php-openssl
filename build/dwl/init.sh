@@ -1,4 +1,6 @@
-#! /bin/bash
+#! /bin/sh -e
+
+cd .; cd -;
 
 dwlDir="/dwl";
 
@@ -31,4 +33,3 @@ echo ">> Apache2 initialized";
 . ${dwlDir}/sendmail.sh
 echo ">> Sendmail initialized";
 
-. ${dwlDir}/keeprunning.sh
