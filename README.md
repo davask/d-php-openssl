@@ -37,11 +37,11 @@
 - /etc/apache2/ssl
 ## LABEL
 
-- dwl.server.os="apache-openssl 5.6-a2.4-u14.04"
+- dwl.server.os="apache-openssl 7.0-a2.4-u16.04"
 
-- dwl.server.base="php-openssl 5.6-a2.4-u14.04"
+- dwl.server.base="php-openssl 7.0-a2.4-u16.04"
 
-- dwl.server.http="apache 5.6-a2.4-u14.04"
+- dwl.server.http="apache 7.0-a2.4-u16.04"
 
 ## EXTRA
 
