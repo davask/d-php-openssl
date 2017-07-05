@@ -29,12 +29,14 @@
 - DWL_SSLKEY_CN: 'davaskweblimited.com'
 - APACHE_SSL_DIR: '/etc/apache2/ssl'
 - DWL_PHP_DATETIMEZONE: 'Europe/Paris'
+- DWL_CERTBOT_DEBUG: 'true'
 ## Available volumes
 
 - /home/username
 - /var/log/apache2
 - /etc/apache2/sites-available
 - /etc/apache2/ssl
+- /etc/letsencrypt
 ## LABEL
 
 - dwl.server.os="apache-openssl 5.6-a2.4-d8.8"

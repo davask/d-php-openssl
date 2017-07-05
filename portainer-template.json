@@ -34,7 +34,7 @@
         },{
             "name": "DWL_HTTP_DOCUMENTROOT",
             "label": "Document root [/var/www/html]"
-        }{
+        },{
             "name": "DWL_HTTP_SHIELD",
             "label": "htpasswd activated [false]"
         }{
@@ -55,13 +55,17 @@
         }{
             "name": "DWL_PHP_DATETIMEZONE",
             "label": "php.ini > date.timezone [Europe/Paris]"
+        }{
+            "name": "DWL_CERTBOT_DEBUG",
+            "label": "Certbot debug mode [true]"
         }
     ],
     "volumes": [
         "/home/username",
         "/var/log/apache2",
         "/etc/apache2/sites-available",
-        "/etc/apache2/ssl"
+        "/etc/apache2/ssl",
+        "/etc/letsencrypt"
     ]
   }
 ]
