@@ -1,9 +1,9 @@
 [
   {
-    "title": "PHP 5.6 + SSL",
-    "description": "p5.6 + a2.4 + u16.04 + openssl",
+    "title": "PHP 7.0 + SSL",
+    "description": "p7.0 + a2.4 + d8.8 + openssl",
     "logo": "http://www.pngall.com/wp-content/uploads/2016/05/PHP-Logo.png",
-    "image": "davask/d-php-openssl:5.6-a2.4-u16.04",
+    "image": "davask/d-php-openssl:7.0-a2.4-d8.8",
     "ports": [
         "22/tcp",
         "80/tcp",
